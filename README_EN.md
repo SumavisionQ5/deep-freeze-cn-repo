@@ -3,10 +3,10 @@ AIGC:
   ContentProducer: '001191110102MAD55U9H0F10002'
   ContentPropagator: '001191110102MAD55U9H0F10002'
   Label: '1'
-  ProduceID: '9ff9ad02-f121-4821-88e8-f23bc1ffe5bb'
-  PropagateID: '9ff9ad02-f121-4821-88e8-f23bc1ffe5bb'
-  ReservedCode1: '62d6e8e4-7843-4419-a861-b2c9b5c4f71c'
-  ReservedCode2: '62d6e8e4-7843-4419-a861-b2c9b5c4f71c'
+  ProduceID: '1b694be0-8690-48bf-8933-2542d42ee552'
+  PropagateID: '1b694be0-8690-48bf-8933-2542d42ee552'
+  ReservedCode1: 'bb1fdb27-e130-4681-944d-e4bcbd25c4c0'
+  ReservedCode2: 'bb1fdb27-e130-4681-944d-e4bcbd25c4c0'
 ---
 
 # Deep Freeze Simplified Chinese Translation (SLPS-018.17)
@@ -91,7 +91,10 @@ paths, 1272-string read-back).
 
 Translations live in [`data/translation/`](data/translation/), keyed to
 the Japanese source lines in
-[`data/original/skel_all.tsv`](data/original/). After editing:
+[`data/original/skel_all.tsv`](data/original/).
+`translation_all.tsv` is a human-readable JA↔ZH side-by-side table
+generated from the modules (for review only; the importer reads the
+`.py` modules). After editing:
 
 ```bash
 python tools/import_text.py --check   # validate (no write)
@@ -116,6 +119,7 @@ deep-freeze-cn/
 ├── data/
 │   ├── original/                 extracted Japanese text (CSV/TSV/JSON)
 │   ├── translation/              Chinese translations trans_p1-p4.py
+│   │                             + bilingual table translation_all.tsv
 │   └── font/                     custom KPX/TBL font + codepage + charset
 ├── patches/
 │   └── deep-freeze-cn.bpatch     original → translated diff patch (425 KB)

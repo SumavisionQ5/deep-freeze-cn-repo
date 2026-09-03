@@ -3,10 +3,10 @@ AIGC:
   ContentProducer: '001191110102MAD55U9H0F10002'
   ContentPropagator: '001191110102MAD55U9H0F10002'
   Label: '1'
-  ProduceID: 'a39fc8ab-2fe5-4b34-ad4a-6df2c2cd6a6e'
-  PropagateID: 'a39fc8ab-2fe5-4b34-ad4a-6df2c2cd6a6e'
-  ReservedCode1: '176624a4-82fb-4429-8ea7-ddaafdc87790'
-  ReservedCode2: '176624a4-82fb-4429-8ea7-ddaafdc87790'
+  ProduceID: '32acc5f4-4b72-4020-9440-7927e2941113'
+  PropagateID: '32acc5f4-4b72-4020-9440-7927e2941113'
+  ReservedCode1: '2848517f-c39f-4e10-862e-149a0d35c983'
+  ReservedCode2: '2848517f-c39f-4e10-862e-149a0d35c983'
 ---
 
 # Deep Freeze 简体中文汉化项目 (SLPS-018.17)
@@ -114,6 +114,7 @@ deep-freeze-cn/
 ├── data/
 │   ├── original/                 日文原文提取结果 (text_extract.csv / skel_all.tsv)
 │   ├── translation/              中文译文 trans_p1-p4.py
+│   │                             + 中日对照总表 translation_all.tsv
 │   └── font/                     自制字库 KPX/TBL + 码表 + 字符集
 ├── patches/
 │   └── deep-freeze-cn.bpatch     原版 → 汉化 差异补丁 (425 KB)

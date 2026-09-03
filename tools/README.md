@@ -3,10 +3,10 @@ AIGC:
   ContentProducer: '001191110102MAD55U9H0F10002'
   ContentPropagator: '001191110102MAD55U9H0F10002'
   Label: '1'
-  ProduceID: '24c87453-487b-41ca-8da7-b838c08759f4'
-  PropagateID: '24c87453-487b-41ca-8da7-b838c08759f4'
-  ReservedCode1: '61c03bca-1022-418d-8189-bfe30f13bde6'
-  ReservedCode2: '61c03bca-1022-418d-8189-bfe30f13bde6'
+  ProduceID: '97af09ee-08ff-434f-bc41-82eadc5138c0'
+  PropagateID: '97af09ee-08ff-434f-bc41-82eadc5138c0'
+  ReservedCode1: '2e858306-6a60-4f09-9031-c6db97d1b21b'
+  ReservedCode2: '2e858306-6a60-4f09-9031-c6db97d1b21b'
 ---
 
 # tools/ 目录说明 — 汉化工具链
@@ -24,6 +24,7 @@ tools/
 ├── dump_exe.py        从原版 BIN 解出主程序 SLPS_018.17
 ├── dump_safs.py       从原版 BIN 解出全部 SAF 资源包
 ├── gen_data.py        从原盘重新提取全部文本 (复现 data/original/)
+├── gen_bilingual.py   生成中日对照总表 translation_all.tsv (浏览/审校用)
 │
 ├── apply_patches.py   EXE 12 处 MIPS 补丁 (原版 EXE → 补丁 EXE)
 ├── build_saf.py       生成补丁 SYSTEM.SAF (替换字库/码表)
@@ -54,6 +55,7 @@ cd tools
 python import_text.py --check      # 校验
 python build_iso.py                # 重建镜像
 python verify.py                   # 校验
+python gen_bilingual.py            # 同步更新中日对照总表 (可选)
 ```
 
 ### C. 从零复现 (要求原版镜像 + 解包资源)

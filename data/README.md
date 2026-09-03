@@ -3,10 +3,10 @@ AIGC:
   ContentProducer: '001191110102MAD55U9H0F10002'
   ContentPropagator: '001191110102MAD55U9H0F10002'
   Label: '1'
-  ProduceID: 'd3d4f971-e06e-4fd1-b371-fbe621c089d5'
-  PropagateID: 'd3d4f971-e06e-4fd1-b371-fbe621c089d5'
-  ReservedCode1: 'efe66d54-c387-4629-9d80-43879d764667'
-  ReservedCode2: 'efe66d54-c387-4629-9d80-43879d764667'
+  ProduceID: '572dffce-20f7-46d7-a93d-5421eddc451c'
+  PropagateID: '572dffce-20f7-46d7-a93d-5421eddc451c'
+  ReservedCode1: '53b2a4bc-e232-4fb0-8e0f-fecd0161c237'
+  ReservedCode2: '53b2a4bc-e232-4fb0-8e0f-fecd0161c237'
 ---
 
 # data/ 目录说明
@@ -23,6 +23,8 @@ data/
 │   ├── saf_lbn.json     全部 SAF 资源包在 ISO 中的 LBN 与大小
 │   └── blocks_info.json 各 .B 文件的块表结构
 ├── translation/         中文译文 (键 = skel_all.tsv 行号)
+│   ├── translation_all.tsv 中日对照总表 (line/file/off/原文/译文,
+│   │                    浏览与审校用，导入器不读取)
 │   ├── trans_p1.py      批 1: 菜单 + 任务简报等 (1-421)
 │   ├── trans_p2.py      批 2: 剧情对话 (422-878)
 │   ├── trans_p3.py      批 3: 对话 + 系统文本 (879-1238)
@@ -36,6 +38,12 @@ data/
 ```
 
 ## 译文文件格式
+
+工具链读取的是 `trans_p1.py` ~ `trans_p4.py` 四个 Python 字典模块；
+`translation_all.tsv` 是由它们生成的**中日对照总表** (1274 行)，
+适合人工浏览与审校，导入器不读取。如需改译文，请改 `trans_pN.py`
+后重新构建镜像；改动后可用 `python tools/gen_bilingual.py`
+重新生成总表 (或 `--check` 仅校验覆盖)。
 
 每个 `trans_pN.py` 是一个 Python 字典模块：
 
