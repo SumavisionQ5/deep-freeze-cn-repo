@@ -1,0 +1,290 @@
+{
+ "MENU1__MAP_PACK.B.bin": [
+  [
+   "0x10",
+   1208
+  ],
+  [
+   "0x4c8",
+   1208
+  ],
+  [
+   "0x980",
+   1208
+  ]
+ ],
+ "MENU1__PACKDATA.B.bin": [
+  [
+   "0x1c",
+   6388
+  ],
+  [
+   "0x1910",
+   1800
+  ],
+  [
+   "0x2018",
+   28480
+  ],
+  [
+   "0x8f58",
+   20832
+  ],
+  [
+   "0xe0b8",
+   20832
+  ],
+  [
+   "0x13218",
+   2568
+  ]
+ ],
+ "MENU1___MAP_PACK.B.bin": [],
+ "MENU1___PACKDATA.B.bin": [],
+ "MENU2__MAP_PACK.B.bin": [
+  [
+   "0x10",
+   1208
+  ],
+  [
+   "0x4c8",
+   1208
+  ],
+  [
+   "0x980",
+   1208
+  ]
+ ],
+ "MENU2__PACKDATA.B.bin": [
+  [
+   "0x1c",
+   5256
+  ],
+  [
+   "0x14a4",
+   1800
+  ],
+  [
+   "0x1bac",
+   28480
+  ],
+  [
+   "0x8aec",
+   20832
+  ],
+  [
+   "0xdc4c",
+   20832
+  ],
+  [
+   "0x12dac",
+   2568
+  ]
+ ],
+ "MENU2___MAP_PACK.B.bin": [],
+ "MENU2___PACKDATA.B.bin": [],
+ "MENU3__MAP_PACK.B.bin": [
+  [
+   "0x10",
+   1208
+  ],
+  [
+   "0x4c8",
+   1208
+  ],
+  [
+   "0x980",
+   1208
+  ]
+ ],
+ "MENU3__PACKDATA.B.bin": [
+  [
+   "0x1c",
+   10716
+  ],
+  [
+   "0x29f8",
+   1800
+  ],
+  [
+   "0x3100",
+   28480
+  ],
+  [
+   "0xa040",
+   20832
+  ],
+  [
+   "0xf1a0",
+   20832
+  ],
+  [
+   "0x14300",
+   2568
+  ]
+ ],
+ "MENU3___MAP_PACK.B.bin": [],
+ "MENU3___PACKDATA.B.bin": [],
+ "MENU4__MAP_PACK.B.bin": [
+  [
+   "0x10",
+   1208
+  ],
+  [
+   "0x4c8",
+   1208
+  ],
+  [
+   "0x980",
+   1208
+  ]
+ ],
+ "MENU4__PACKDATA.B.bin": [
+  [
+   "0x1c",
+   4828
+  ],
+  [
+   "0x12f8",
+   1800
+  ],
+  [
+   "0x1a00",
+   28480
+  ],
+  [
+   "0x8940",
+   20832
+  ],
+  [
+   "0xdaa0",
+   20832
+  ],
+  [
+   "0x12c00",
+   2568
+  ]
+ ],
+ "MENU4___MAP_PACK.B.bin": [],
+ "MENU4___PACKDATA.B.bin": [],
+ "MENU5__MAP_PACK.B.bin": [
+  [
+   "0x10",
+   1208
+  ],
+  [
+   "0x4c8",
+   1208
+  ],
+  [
+   "0x980",
+   1208
+  ]
+ ],
+ "MENU5__PACKDATA.B.bin": [
+  [
+   "0x1c",
+   3584
+  ],
+  [
+   "0xe1c",
+   1800
+  ],
+  [
+   "0x1524",
+   28480
+  ],
+  [
+   "0x8464",
+   20832
+  ],
+  [
+   "0xd5c4",
+   20832
+  ],
+  [
+   "0x12724",
+   2568
+  ]
+ ],
+ "MENU5___MAP_PACK.B.bin": [],
+ "MENU5___PACKDATA.B.bin": [],
+ "OVERLAY__CARD.B.bin": [],
+ "OVERLAY__CHR_SEL.B.bin": [],
+ "OVERLAY__COMPUTER.B.bin": [],
+ "OVERLAY__EDITMODE.B.bin": [],
+ "OVERLAY__FARCODE.B.bin": [],
+ "OVERLAY__GAMEOVER.B.bin": [],
+ "OVERLAY__HYOUKA.B.bin": [],
+ "OVERLAY__INITIAL.B.bin": [],
+ "OVERLAY__MENU.B.bin": [],
+ "OVERLAY__RANKING.B.bin": [],
+ "OVERLAY__SCRIPT.B.bin": [],
+ "OVERLAY__STAFFROL.B.bin": [],
+ "OVERLAY__STAGE01.B.bin": [],
+ "OVERLAY__STAGE01A.B.bin": [],
+ "OVERLAY__STAGE01B.B.bin": [],
+ "OVERLAY__STAGE01C.B.bin": [],
+ "OVERLAY__STAGE02.B.bin": [],
+ "OVERLAY__STAGE02A.B.bin": [],
+ "OVERLAY__STAGE03.B.bin": [],
+ "OVERLAY__STAGE03A.B.bin": [],
+ "OVERLAY__STAGE03B.B.bin": [],
+ "OVERLAY__STAGE04.B.bin": [],
+ "OVERLAY__STAGE04A.B.bin": [],
+ "OVERLAY__STAGE04B.B.bin": [],
+ "OVERLAY__STAGE05.B.bin": [],
+ "OVERLAY__STAGE05A.B.bin": [],
+ "OVERLAY__STAGE05B.B.bin": [],
+ "OVERLAY__ST_TITLE.B.bin": [],
+ "OVERLAY__TESTMODE.B.bin": [],
+ "OVERLAY__TOPMENU.B.bin": [],
+ "OVERLAY__VIEWER.B.bin": [],
+ "OVERLAY___CARD.B.bin": [],
+ "OVERLAY___CHR_SEL.B.bin": [],
+ "OVERLAY___COMPUTER.B.bin": [],
+ "OVERLAY___EDITMODE.B.bin": [],
+ "OVERLAY___FARCODE.B.bin": [],
+ "OVERLAY___GAMEOVER.B.bin": [],
+ "OVERLAY___HYOUKA.B.bin": [],
+ "OVERLAY___INITIAL.B.bin": [],
+ "OVERLAY___MENU.B.bin": [],
+ "OVERLAY___RANKING.B.bin": [],
+ "OVERLAY___SCRIPT.B.bin": [],
+ "OVERLAY___STAFFROL.B.bin": [],
+ "OVERLAY___STAGE01.B.bin": [],
+ "OVERLAY___STAGE01A.B.bin": [],
+ "OVERLAY___STAGE01B.B.bin": [],
+ "OVERLAY___STAGE01C.B.bin": [],
+ "OVERLAY___STAGE02.B.bin": [],
+ "OVERLAY___STAGE02A.B.bin": [],
+ "OVERLAY___STAGE03.B.bin": [],
+ "OVERLAY___STAGE03A.B.bin": [],
+ "OVERLAY___STAGE03B.B.bin": [],
+ "OVERLAY___STAGE04.B.bin": [],
+ "OVERLAY___STAGE04A.B.bin": [],
+ "OVERLAY___STAGE04B.B.bin": [],
+ "OVERLAY___STAGE05.B.bin": [],
+ "OVERLAY___STAGE05A.B.bin": [],
+ "OVERLAY___STAGE05B.B.bin": [],
+ "OVERLAY___ST_TITLE.B.bin": [],
+ "OVERLAY___TESTMODE.B.bin": [],
+ "OVERLAY___TOPMENU.B.bin": [],
+ "OVERLAY___VIEWER.B.bin": [],
+ "STAFFROL__BG0.B.bin": [],
+ "STAFFROL__BG1.B.bin": [],
+ "STAFFROL__BG2.B.bin": [],
+ "STAFFROL__COMMAND0.B.bin": [],
+ "STAFFROL__COMMAND1.B.bin": [],
+ "STAFFROL__COMMAND2.B.bin": [],
+ "STAFFROL__NAME.B.bin": [],
+ "STAFFROL___BG0.B.bin": [],
+ "STAFFROL___BG1.B.bin": [],
+ "STAFFROL___BG2.B.bin": [],
+ "STAFFROL___COMMAND0.B.bin": [],
+ "STAFFROL___COMMAND1.B.bin": [],
+ "STAFFROL___COMMAND2.B.bin": [],
+ "STAFFROL___NAME.B.bin": [],
+ "TOPMENU__FACE.B.bin": [],
+ "TOPMENU___FACE.B.bin": []
+}
